@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SR Landmarks | Real Estate Consultants</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f6f6f6;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      background: #0c1d2e;
+      padding: 18px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      color: #d4af37;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(rgba(12,29,46,0.85), rgba(12,29,46,0.85)),
+      url("https://images.unsplash.com/photo-1560518883-ce09059eeffa");
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 110px 20px;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      color: #d4af37;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      background: #d4af37;
+      color: #0c1d2e;
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      margin: 0 10px;
+      display: inline-block;
+    }
+
+    .hero a:hover {
+      background: #b8962e;
+    }
+
+    /* SECTIONS */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 32px;
+      color: #0c1d2e;
+    }
+
+    /* ABOUT */
+    .about {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    /* SERVICES */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .service-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .service-box h3 {
+      color: #d4af37;
+      margin-bottom: 12px;
+    }
+
+    /* MAP */
+    .map {
+      width: 100%;
+      height: 350px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #0c1d2e;
+      color: #fff;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    footer p {
+      margin: 6px 0;
+      font-size: 14px;
+    }
+
+    /* WHATSAPP */
+    .whatsapp {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: #25d366;
+      color: #fff;
+      font-size: 26px;
+      padding: 14px 16px;
+      border-radius: 50%;
+      text-decoration: none;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">SR Landmarks</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#location">Location</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>SR Landmarks</h1>
+    <p>Trusted Real Estate Consultants in Amaravathi</p>
+    <a href="tel:+919010077708">Call Now</a>
+    <a href="https://wa.me/919010077708" target="_blank">WhatsApp</a>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p class="about">
+      SR Landmarks is a professional real estate consultancy focused on genuine
+      properties, clear documentation, and long-term investment value.
+      We help clients make confident decisions with transparency and trust.
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>Residential Plots</h3>
+        <p>Verified residential plots with legal clarity and growth potential.</p>
+      </div>
+      <div class="service-box">
+        <h3>Open Plots</h3>
+        <p>Open land investments in fast-developing locations.</p>
+      </div>
+      <div class="service-box">
+        <h3>Investment Advisory</h3>
+        <p>Expert guidance for safe and profitable real estate investments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section id="location">
+    <h2>Our Location</h2>
+    <iframe
+      class="map"
+      src="https://www.google.com/maps?q=Amaravathi,Andhra%20Pradesh&output=embed"
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>SR Landmarks</strong></p>
+    <p>📍 Amaravathi, Andhra Pradesh</p>
+    <p>📞 +91 9010077708 | ✉ info@srlandmarks.com</p>
+    <p>© 2026 SR Landmarks. All Rights Reserved.</p>
+  </footer>
+
+  <!-- WHATSAPP -->
+  <a class="whatsapp" href="https://wa.me/919010077708" target="_blank">💬</a>
+
+</body>
+</html>
